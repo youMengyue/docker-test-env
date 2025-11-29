@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   test:
+    build: .
     #image
     image: ghcr.io/zhanhong-msu/test:latest
     container_name: test-container
