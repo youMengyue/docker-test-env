@@ -26,6 +26,7 @@ RUN apt-get update && \
     gdb \
     python3 \
     python3-pip \
+    sudo \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

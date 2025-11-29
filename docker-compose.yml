@@ -5,7 +5,7 @@ services:
     build: .
     #image
     image: ghcr.io/zhanhong-msu/test:latest
-    container_name: test-container
+    container_name: test
     volumes:
       - ..:/workspace
     working_dir: /workspace
