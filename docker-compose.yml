@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  test:
+    #image
+    image: ghcr.io/zhanhong-msu/test:latest
+    container_name: test-container
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
